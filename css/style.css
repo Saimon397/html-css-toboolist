@@ -11,9 +11,13 @@ header { background-color: white;
         width: 100%; }
 
 #logo { width: 30%;
-        padding-left: 20px; }  
+        padding-left: 20px;
+        padding-top: 10px;
+        display: inline-block; }  
 
-#text-logo { display: inline-block; }
+#text-logo { font-size: 40px;
+             vertical-align: 30%;
+             display: inline-block; }            
 
 .box { width: 70%;
        height: 50px;
@@ -21,10 +25,16 @@ header { background-color: white;
        margin: 50px auto;
        margin-bottom: 0; }
 
-.task { padding-top: 20px;
-        background-color: white; }      
+.box2 { width: 70%;
+        height: 50px;
+        background-color: white;
+        margin: auto;
+        margin-bottom: 0; }       
 
-.center { margin-left: 50px;
+.space { padding-top: 30px;
+        background-color: white; }        
+
+.position-button { margin-left: 50px;
           padding-top: 10px; }
 
 #button1{ background-color: #46ADF1;
@@ -45,10 +55,76 @@ header { background-color: white;
            border-color: #a3a7ad;
            border-radius: 5px; }  
  
-hr { color: #F5F8F9;
-     border-color: #F5F8F9;
-     height: 1px;
+hr { height: 3px;
      border: 0; }
+
+p { padding: 10px 0px 10px 0px;
+    background-color: white;
+    font-weight: 500; }
+
+summary {font-weight: bold;}    
+
+.editorial { background-color: #46ADF1;
+             margin-left: 10px;
+             border-radius: 8px;
+             color: white;
+             padding: 5px;
+             font-size: 10px; }
+
+.q1goals { background-color: #9C72E4;
+           margin-left: 10px;
+           border-radius: 8px;
+           color: white;
+           padding: 5px;
+           font-size: 10px; }  
+           
+.recruiting{ background-color:#63C0A9;
+             margin-left: 10px;
+             border-radius: 8px;
+             color: white;
+             padding: 5px;
+             font-size: 10px; }
+             
+.mobile { background-color:#F29E33;
+          margin-left: 10px;
+          border-radius: 8px;
+          color: white;
+          padding: 5px;
+          font-size: 10px; } 
+          
+.website { background-color:#D763A1;
+           margin-left: 10px;
+           border-radius: 7px;
+           color: white;
+           padding: 5px;
+           font-size: 9px; }
+
+.sales { background-color:#B3CB2E;
+        margin-left: 10px;
+        border-radius: 8px;
+        color: white;
+        padding: 5px;
+        font-size: 10px; } 
+        
+.check { display: inline-block;
+         width: 18px;
+         height: 18px;
+         text-align: center;
+         font-size: 12px;
+         color: green;
+         border: 1px solid green;
+         border-radius: 50%;
+         margin-right: 5px; } 
+         
+.delete { display: inline-block;
+          width: 18px;
+          height: 18px;
+          text-align: center;
+          font-size: 9px;
+          color: red;
+          border: 1px solid red;
+          border-radius: 50%;
+          margin-right: 5px; }       
      
 
 
