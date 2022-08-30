@@ -1,0 +1,57 @@
+* { font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body { background-color: #F5F8F9; } 
+
+main { width: 100%; }    
+
+header { background-color: white;
+        width: 100%; }
+
+#logo { width: 30%;
+        padding-left: 20px; }  
+
+#text-logo { display: inline-block; }
+
+.box { width: 70%;
+       height: 50px;
+       background-color: white;
+       margin: 50px auto;
+       margin-bottom: 0; }
+
+.task { padding-top: 20px;
+        background-color: white; }      
+
+.center { margin-left: 50px;
+          padding-top: 10px; }
+
+#button1{ background-color: #46ADF1;
+          width: 100px;
+          height: 30px;
+          font-size: 15px;
+          font-weight: 500;
+          color: white;
+          border: 1px;
+          border-radius: 5px; }
+
+#button2 { width: 100px;
+           height: 30px;
+           font-size: 15px;
+           font-weight: 500;
+           color: #a3a7ad;
+           border-width: 1px;
+           border-color: #a3a7ad;
+           border-radius: 5px; }  
+ 
+hr { color: #F5F8F9;
+     border-color: #F5F8F9;
+     height: 1px;
+     border: 0; }
+     
+
+
+
+
+         
