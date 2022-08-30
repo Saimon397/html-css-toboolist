@@ -61,8 +61,8 @@ p { padding: 10px 0px 10px 0px;
     margin-left: 50px;
     background-color: white; }
 
-summary {font-weight: bold;
-         margin-left: 50px; }    
+summary { font-weight: bold;
+          margin-left: 50px; }    
 
 .editorial { background-color: #46ADF1;
              margin-left: 10px;
